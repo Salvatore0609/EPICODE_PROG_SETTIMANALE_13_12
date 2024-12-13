@@ -501,11 +501,10 @@ let Tree = (num) => {
   for (let i = 1; i <= num; i++) {
     let row = ""; 
 
-    for (let j = 1; j <= i; j++) {
+    for (let j = 1; j <= 2; j++) {
       row += " ";
     }
 
-    
     for (let k = 1; k <= i; k++) {
       row += "*";
     }
