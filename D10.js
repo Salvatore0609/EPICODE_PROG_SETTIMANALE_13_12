@@ -472,8 +472,8 @@ let addClassTest = () => {
 
 */
 
-let halfTree = (height) => {
-  for (let i = 1; i <= height; i++) {
+let halfTree = (num) => {
+  for (let i = 1; i <= num; i++) {
     let row = ""; // Stringa vuota per costruire la riga
 
     // aggiunge un asterisco alla riga per ogni livello
@@ -497,6 +497,22 @@ halfTree(3);
   *****
 
 */
+let Tree = (num) => {
+  for (let i = 1; i <= num; i++) {
+    let row = ""; 
+
+    for (let j = 1; j <= i; j++) {
+      row += " ";
+    }
+
+    
+    for (let k = 1; k <= i; k++) {
+      row += "*";
+    }
+    console.log(row);
+  }
+} //non riesco
+Tree(3);
 
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
