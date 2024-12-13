@@ -152,7 +152,7 @@ function whatDayIsIt() {
 }
 whatDayIsIt()
 console.log(whatDayIsIt()) /* -------------------RITORNARCI */
-
+//non riesco
 
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
